@@ -1,0 +1,13 @@
+# 빌드 결과물 (컴파일된 파일들)
+build/
+bin/
+
+# IDE 설정 파일 (개인 환경 설정)
+.idea/
+
+# Gradle 캐시
+.gradle/
+
+# 환경변수 파일
+.env
+.env.*
