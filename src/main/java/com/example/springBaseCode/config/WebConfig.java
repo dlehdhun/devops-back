@@ -14,7 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
                         "http://localhost:3000",   // 로컬 개발 (npm start)
                         "http://localhost",        // Docker 배포 (Nginx 80)
                         "http://localhost:80",
-                        "http://15.164.163.6"   // ← EC2 IP 추가
+                        "http://13.203.134.29"   // ← EC2 IP 추가
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
